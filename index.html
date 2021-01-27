@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pasir Ris Park</title>
+<style>
+
+body {
+  margin: 0;
+}
+
+div.pageheader {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 120%;
+  font-family: Candara;
+  font-weight: bold;
+}
+
+li {
+  float: left;
+  padding-top: 9%;
+}
+
+li a.navigation {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 7px 60px;
+  border-top: 2px solid #cccccc;
+  text-decoration: none;
+}
+
+li a.navigation:hover {
+  text-decoration: underline;
+}
+
+h1#mainheader {
+  margin: 0;
+  text-align: center;
+  padding: 17% 20%;
+  font-size: 700%;
+  font-family: Brush Script MT;
+  color: white;
+  text-shadow: 3px 3px 8px #ffe066;
+}
+
+div#mainheaderbackground {
+  background-image: url('pasirrispark1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+div.introduction {
+  padding: 0 125px;
+}
+
+h2#introduction {
+  margin-top: 75px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 200%;
+  font-family: Georgia;
+  border-top: 4px dotted #cccccc;
+}
+
+p#introduction {
+  font-size: 115%;
+  text-align: center;
+  border-bottom: 4px dotted #cccccc;
+  padding-bottom: 16px;
+}
+
+p a.link:link {
+  text-decoration: none;
+  color: blue;
+}
+
+p a.link:visited {
+  text-decoration: none;
+  color: #8a00e6;
+}
+
+p a.link:hover {
+  text-decoration: underline;
+}
+
+p a.link2 {
+  text-decoration: none;
+  color: #bd2a47;
+}
+
+p a.link2:hover {
+  text-decoration: underline;
+}
+
+p a.linkbutton {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #99152f;
+  color: white;
+}
+
+p a.linkbutton:hover {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #bd2a47;
+  color: white;
+}
+
+h2#thingstodo {
+  text-align: center;
+  font-size: 300%;
+  font-family: Georgia;
+  text-shadow: 3px 3px 8px #66ffff;
+}
+
+.flex-thingstodo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-thingstodo > div {
+  width: 83%;
+  margin: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+h2#thingstodoheader {
+  font-family: Garamond;
+  font-size: 400%;
+}
+
+p#thingstodoparagraph {
+  font-size: 120%;
+}
+
+h2#parkinformation {
+  text-align: center;
+  font-size: 300%;
+  font-family: Georgia;
+  text-shadow: 3px 3px 8px #ff66a3;
+}
+
+.flex-parkinformation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left:8%;
+  margin-right:8%;
+}
+
+.flex-parkinformation > div {
+  background-color: white;
+  width: 33%;
+  text-align: left;
+  padding: 0 20px 0 20px;
+  border-right: 4px dotted #cccccc;
+}
+
+h3#parkinformationheader {
+  font-size: 175%;
+  font-family: Georgia;
+  color: #99152f;
+  margin-top: 0;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc;
+}
+
+p#parkinformationparagraph {
+  font-size: 150%;
+}
+
+h2#parkmap {
+  text-align: center;
+  font-size: 300%;
+  font-family: Georgia;
+  text-shadow: 3px 3px 8px #22a331;
+  padding-top: 50px;
+}
+
+</style>
+</head>
+
+<body>
+
+  <p id="topofpage" style="margin:0;"></p>
+  <div class="pageheader">
+  <img src="nationalparklogoedit.jpg" alt="National Parks Logo" style="float:left; width:19%; height:19%; padding-left:8%;">
+    <nav>
+      <ul class="navigation">
+        <li><a href=#topofpage class="navigation">Top</a></li>
+        <li><a href=#thingstodo class="navigation">Things to do</a></li>
+        <li><a href=#parkinformation class="navigation">Park information</a></li>
+        <li><a href=#parkmap class="navigation">Park Map</a></li>
+	  </ul>
+    </nav>
+  </div>
+  
+  <div id="mainheaderbackground">
+  <h1 id="mainheader">|Pasir Ris Park|</h1>
+  </div>
+  
+  <div class="introduction">
+    <img src="pasirrispark2.png" alt="Picture the sea from Pasir Ris Park" style="float:left;">
+    <h2 id="introduction">A Day Outdoors</h2>
+	<p id="introduction">Unlike most of the other National Parks in Singapore, Pasir Ris Park<br>
+	(Not to be confused with 
+	<a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/pasir-ris-town-park" class="link" title="Pasir Ris Town Park" target="_blank">Pasir Ris Town Park</a>)</br>
+    is a beach park located in the eastern part of Singapore. It covers an area of 70 hectares (170 acres),
+    and was partially built on reclaimed land.
+    <br><br>
+    The park's name was derived from the Malay word 'Pasir Ris', which means 'beach bolt-rope', implying
+    a narrow beach.
+    <br><br>
+    Pasir Ris Park is a wonderful choice to spend time outdoors in Singapore. There are plenty of fun
+    activities to do along the long park and it is a popular choice for outings and short, in-country vacation.
+    <br><br>
+	Even if you intend to stay out of the water, Pasir Ris Park is still perfect for a day of fun and exploration!
+	<br>
+	Here are some of the things you can do</p>
+  </div>
+  
+  <br><br>
+  
+  <h2 id="thingstodo">| Things to do |</h2>
+  
+  <div class="flex-thingstodo">
+  
+    <div>
+    <img src="pasirrisparkcycling.png" alt="People cycling at Pasir Ris Park" style="float:right;">
+	<h2 id="thingstodoheader">Cycling &#38; Skating</h2>
+	<p id="thingstodoparagraph">As with all parks, cycling and skating is a great way to appreciate the scenery<br>
+	and it is a great form of exercise.
+	<br><br>
+	Bring your own bikes/skates or rent one from of the Pasir Ris bike kiosk.<br>
+	Check out this <a href="https://www.littledayout.com/pasir-ris-park-bike-rental-guide-2018/" class="link" title="Pasir Ris Park Bike Rental Guide" target="_blank">article</a>
+	to find out where you can rent a bike/skate around the park.</p>
+	</div>
+	
+	<div>
+	<img src="pasirrisparkcamping.png" alt="People camping at Pasir Ris Park" style="float:right;">
+	<h2 id="thingstodoheader" style="margin:42px;">Camping/Picnic</h2>
+	<p id="thingstodoparagraph">Pasir Ris Park is a great location for a nice lunch/an overnight outdoor adventure.<br>
+	Have a calm and peaceful lunch along the beach or sleep under the starry<br>
+	night sky and wake up to the sounds of the birds chirping and the smell of the sea.
+	<br><br>
+	There are two areas - <a href="#parkmap" title="To Park Map" class="link">Area 1 &#38; Area 3</a> - where camping is allowed. 
+	<br><br>
+	However, please remember to 
+	<a href="https://www.axs.com.sg/help_NParksCampHowToUse.php" title="Guide for applying for a camping permit" class="link" target="_blank">apply for a camping permit</a>
+	at any AXS station before getting all "campy"!</p>
+	</div>
+	
+	<div>
+	<img src="pasirrisparkbarbecue.png" alt="Family having a barbecue at Pasir Ris Park" style="float:left;">
+	<h2 id="thingstodoheader" style="margin: 40px;">Barbecue</h2>
+	<p id="thingstodoparagraph">Along the long park, there are almost 70 barbecue pits!
+	<br><br>
+	Nothing beats a great barbecue session amidst the lush greenery with a seaview<br>
+	to catch up with friends &#38; family ina casual and relaxed setting.
+	<br><br>
+	Don't forget to bring along your own barbecue essentials and food<br>
+	when you come here for a barbecue.
+	<br><br>
+	Go on and 
+	<a href="https://e-station.axs.com.sg/NParks/Internet_Payment/index.php" title="Book your barbecue pit online" class="link" target="_blank">book a barbecue pit online</a>
+	and enjoy your day off!</p>
+	</div>
+	
+	<div>
+	<img src="pasirrisparkmangrove.png" alt="Picture of Mangrove Boardwalk in Pasir Ris Park" style="float:left;">
+	<h2 id="thingstodoheader">Mangrove Boardwalk</h2>
+	<p id="thingstodoparagraph">Pasir Ris Park also consist of a carefully preserved six-hectare mangrove forest.
+	<br><br>
+	The mangroves are home to many species of animals &#38; fish<br>
+	and it is an essential part of our eco-system.
+	<br><br>
+	Take an educational stroll along the Mangrove Boardwalk<br>
+	and look out for unique plants &#38; exotic animals.
+	<br><br>
+	*Note that no cycling is allowed on the boardwalk for safety reasons*</p>
+	</div>
+	
+	<div>
+	<img src="pasirrisparkgallopstable.png" alt="Picture of children feeding horses in Pasir Ris Park" style="float:right;">
+	<h2 id="thingstodoheader" style="margin:20px;">Gallop Stable</h2>
+	<p id="thingstodoparagraph">One of the more interesting thing to do at Pasir Ris Park is horse related activities.
+	<br><br>
+	Horse related activities such as riding lessons, pony rides and feeding,<br>
+	trail rides, riding camps and many more for everyone, young and old to enjoy!
+	<br><br>
+	Pasir Ris Park is home to the pioneering branch of Gallop Stables<br>
+	which started from humble beginnings in 2003.
+	<br><br>
+	If you ever want to try to ride horses/ponies without<br>
+	having to worry about joining a riding club,<br>
+	Pasir Ris Park is the place to go!
+	<br><br>
+	Check out Gallop Stables 
+	<a href="https://www.gallopstable.com/" title="Gallop Stable website" class="link" target="_blank">website</a>
+	for more information.</p>
+	</div>
+	
+  </div>
+  
+  <h2 id="parkinformation" style="padding-bottom:50px;">| Park Information |</h2>
+  
+  <div class="flex-parkinformation">
+  
+    <div>
+	<h3 id="parkinformationheader">Park Size</h3>
+	<p id="parkinformationparagraph">70 hectares, stretching over 3.2km</p>
+	<h3 id="parkinformationheader">Park lighting hours</h3>
+	<p id="parkinformationparagraph">7:00pm to 7:00am</p>
+	<h3 id="parkinformationheader">Accessibility</h3>
+	<p id="parkinformationparagraph">Wheelchair accessible</p>
+	<br>
+	</div>
+	
+	<div>
+	<h3 id="parkinformationheader">How to get there</h3>
+	<p id="parkinformationparagraph">Bus stop no. 77129 (Opp Unit 104), 77119 (Aft Pasir Ris Way), 78109 (Downtown East),
+	78091 (Opp Downtown East) </p>
+	<h3 id="parkinformationheader">Nearby Park Connectors</h3>
+	<p id="parkinformationparagraph"><a href="https://www.nparks.gov.sg/gardens-parks-and-nature/park-connector-network/pasir-ris-pc" title="Pasir Ris Park Connector" class="link2" target="_blank">Pasir Ris PC</a></p>
+	<p id="parkinformationparagraph"><a href="https://www.nparks.gov.sg/gardens-parks-and-nature/park-connector-network/tampines-pc" title="Tampinese Park Connector" class="link2" target="_blank">Tampinese PC</a></p>
+	</div>
+	
+	<div style="border-right: 0;">
+	<h3 id="parkinformationheader">Location</h3>
+	<p id="parkinformationparagraph" style="padding-bottom:15px;">Pasir Ris Park stretches from Pasir Ris Road to Jalan Loyang Besar and can be accessed through Elias Road and Pasir Ris Green</p>
+	<p id="parkinformationparagraph"><a href="https://www.google.com/maps/dir//Pasir+Ris+Green,+Pasir+Ris+Park/@1.3765106,103.9485624,16.48z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da3db0ae37af9d:0x521ed10276a41b1b!2m2!1d103.9498489!2d1.3770592" title="Google Maps direction to Pasir Ris Park" class="linkbutton" target="_blank">Get Directions</a></p>
+	</div>
+	
+  </div>
+  
+  <h2 id="parkmap">| Park Map |</h2>
+  <a href="https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/pasir-ris-park/pasir-ris-park-map.jpg?la=en&hash=7EDFC6082EE75ADFA9D0C4E053A8636B92DF541F" title="Pasir Ris Park Map" target="_blank">
+  <img src="pasirrisparkmap.jpg" alt="Pasir Ris Park Map" style="display:block; width:75%; margin-left:auto; margin-right:auto;">
+  </a>
+
+</body>
+
+</html>
+  
